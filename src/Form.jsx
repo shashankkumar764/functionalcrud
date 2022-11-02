@@ -25,7 +25,7 @@ const Form = () => {
   return (
     <>
     <Textbox handleChange={changeHandler} placeholder = 'Enter Your Full Name' label = 'Name' id='name' name='name'/>
-    <Textbox handleChange={changeHandler} placeholder = "Enter Your Fahter's Name" label = 'Father Name' id='Fname' name='Fname'/>
+    {/* <Textbox handleChange={changeHandler} placeholder = "Enter Your Fahter's Name" label = 'Father Name' id='Fname' name='Fname'/> */}
     <form onSubmit={submitHandler}>
       <button type='submit'>Save</button>
     </form>
